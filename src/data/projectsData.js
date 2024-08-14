@@ -1,5 +1,5 @@
 import one from '../assets/svg/projects/one.svg'
-// import two from '../assets/svg/projects/two.svg'
+import two from '../assets/svg/projects/two.svg'
 import three from '../assets/svg/projects/three.svg'
 import four from '../assets/svg/projects/four.svg'
 // import five from '../assets/svg/projects/five.svg'
@@ -13,7 +13,7 @@ export const projectsData = [
       id: 1,
       projectName: "Real Estate Website",
       projectDesc:
-        '"RealEstate-MERNStack is a modern real estate website built with the MERN stack, offering seamless property browsing and listing features. It uses Firebase for authentication and data management, and Tailwind CSS for a sleek, responsive design. This project aims to revolutionize the real estate experience with efficient and user-friendly digital solutions."',
+        '"RealEstate-MERNStack is a modern real estate website built with the MERN stack, offering seamless property browsing and listing features. It uses Firebase for authentication and data management, and Tailwind CSS for a sleek, responsive design."',
       tags: ["React", "Node", "JavaScript"],
       code: "https://github.com/akashp73387/Project-RealEstate-Frontend",
       demo: " https://mern-estate-lodz.onrender.com/",
@@ -21,23 +21,34 @@ export const projectsData = [
     },
   {
     id: 2,
-    projectName: "TO-DO List",
+    projectName: "Task Management App",
     projectDesc:
-      "A website enabling users to organize tasks with  due dates, reminders, and completion tracking.",
-    tags: ["React","html","javascript", "CSS"],
-    code: " https://github.com/akashp73387/DAY-25-React-ToDO-task",
-    demo: " https://0react-todo-task.netlify.app/",
+      "An app facilitating task planning, tracking, collaboration, and milestone setting for enhanced productivity.",
+    tags: ["React", "Node", "JavaScript"],
+    code: "https://github.com/akashp73387/Task-Management-App-Project---Frontend",
+    demo: "https://662fb51f820bdf330e5d6117--inspiring-zuccutto-b29727.netlify.app/",
+    image: two,
+  },
+  {
+    id: 3,
+    projectName: "E-Commerce Website",
+    projectDesc:
+      "An e-commerce platform that allows users to browse products, add them to their cart, and complete purchases. ",
+    tags: ["React", "Node", "JavaScript"],
+    code: "https://github.com/akashp73387/E-commerse-Website-Project--Frontend---Backend",
+    demo: "https://mern-shop-abxs.onrender.com/",
+    image: three,
+  },
+  {
+    id: 4,
+    projectName: "Expenses Tracker App",
+    projectDesc:
+      "A user-friendly application that helps users to track and manage their daily expenses.",
+    tags: ["React", "Node", "JavaScript"],
+    code: "https://github.com/akashp73387/Expense-Tracker-Project---FrontEnd",
+    demo: "  https://main.d4ed8we1flo2r.amplifyapp.com/",
     image: four,
   },
-  // {
-  //     id: 3,
-  //     projectName: 'Weather App',
-  //     projectDesc: 'Weather forecast systems and applications predict weather conditions based on multiple parameters.',
-  //     tags: ['HTML', 'CSS', 'Javascript'],
-  //     code: 'https://github.com/gayathri140205/DAY2-TASK-PROMISE.git',
-  //     demo: 'https://tourmaline-melba-42b03f.netlify.app/',
-  //     image: three
-  // },
 ];
 
 
