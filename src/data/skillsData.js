@@ -2,17 +2,18 @@
    "HTML",
    "CSS",
    "tailwindCss",
+   "vitejs",
    "Bootstrap",
    "Javascript",
-   "ReactJs",
+   "React",
    "NodeJs",
-   "expressJS",
+   "express",
    "MongoDB",
    "MySql",
    "git",
    "github",
    "Documentation",
-   "PostmanAPI",
+   "Postman",
    "Netlify"
  ];
 

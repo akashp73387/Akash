@@ -10,16 +10,21 @@ import css from '../assets/svg/skills/css.svg'
 import javascript from '../assets/svg/skills/javascript.svg'
 // import nextJS from '../assets/svg/skills/nextJS.svg'
 // import nuxtJS from '../assets/svg/skills/nuxtJS.svg'
-import react from '../assets/svg/skills/react.svg'
-import node from '../assets/svg/skills/node-js.svg'
+import react from "../assets/svg/skills/react.svg";
+import nodejs from '../assets/svg/skills/node-js.svg'
 
 import bootstrap from '../assets/svg/skills/bootstrap.svg'
 
-
+import documentation from '../assets/svg/skills/documentation.svg'
 import mysql from '../assets/svg/skills/mysql.svg'
 import mongodb from "../assets/svg/skills/mongodb-original.svg";
-import tailwindCss from "../assets/svg/skills/tailwind.svg";
-
+import tailwindcss from "../assets/svg/skills/tailwind.svg";
+import git from "../assets/svg/skills/git.svg";
+import express from "../assets/svg/skills/express.svg";
+import github from "../assets/svg/skills/github.svg";
+import postman from "../assets/svg/skills/postman.svg";
+import netlify from "../assets/svg/skills/netlify.svg";
+import vitejs from "../assets/svg/skills/vitejs.svg";
 
 
 
@@ -28,14 +33,26 @@ import tailwindCss from "../assets/svg/skills/tailwind.svg";
 export const skillsImage = (skill) => {
     const skillID = skill.toLowerCase();
     switch (skillID) {
-      // case 'gcp':
-      //     return gcp;
+      case "postman":
+        return postman;
+      case "git":
+        return git;
+      case "github":
+        return github;
+
+      case "express":
+        return express;
       case "html":
         return html;
-      case "node":
-        return node;
-      // case 'docker':
-      //     return docker;
+      case "documentation":
+        return documentation;
+      case "tailwindcss":
+        return tailwindcss;
+      case "nodejs":
+        return nodejs;
+
+      case "netlify":
+        return netlify;
       // case 'illustrator':
       //     return illustrator;
       // case 'adobe xd':
@@ -63,14 +80,16 @@ export const skillsImage = (skill) => {
       //     return capacitorjs;
       // case 'coffeescript':
       //     return coffeescript;
-      // case 'memsql':
-      //     return memsql;
+      case "mysql":
+        return mysql;
+      case "mongodb":
+        return mongodb;
 
       // case 'postgresql':
       //     return postgresql;
 
-      //   case "vite":
-      //     return vite;
+      case "vitejs":
+        return vitejs;
       // case 'vuetifyjs':
       //     return vuetifyjs;
       // case 'c':
