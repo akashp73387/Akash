@@ -9,16 +9,16 @@ import four from '../assets/svg/projects/four.svg'
 
 
 export const projectsData = [
-    {
-      id: 1,
-      projectName: "Real Estate Website",
-      projectDesc:
-        '"RealEstate-MERNStack is a modern real estate website built with the MERN stack, offering seamless property browsing and listing features. It uses Firebase for authentication and data management, and Tailwind CSS for a sleek, responsive design."',
-      tags: ["React", "Node", "JavaScript"],
-      code: "https://github.com/akashp73387/Project-RealEstate-Frontend",
-      demo: " https://mern-estate-lodz.onrender.com/",
-      image: one,
-    },
+  {
+    id: 1,
+    projectName: "Real Estate Website",
+    projectDesc:
+      '"RealEstate-MERNStack is a modern real estate website built with the MERN stack, offering seamless property browsing and listing features. It uses Firebase for authentication and data management, and Tailwind CSS for a sleek, responsive design."',
+    tags: ["React", "Node", "JavaScript"],
+    code: "https://github.com/akashp73387/Project-RealEstate-Frontend",
+    demo: " https://mern-estate-lodz.onrender.com/",
+    image: one,
+  },
   {
     id: 2,
     projectName: "Task Management App",
@@ -26,7 +26,7 @@ export const projectsData = [
       "An app facilitating task planning, tracking, collaboration, and milestone setting for enhanced productivity.",
     tags: ["React", "Node", "JavaScript"],
     code: "https://github.com/akashp73387/Task-Management-App-Project---Frontend",
-    demo: "https://662fb51f820bdf330e5d6117--inspiring-zuccutto-b29727.netlify.app/",
+    demo: "https://inspiring-zuccutto-b29727.netlify.app/",
     image: two,
   },
   {
